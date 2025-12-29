@@ -1,0 +1,12 @@
+description: "Scenario: Requesting a product by ID should return product details"
+request:
+  method: GET
+  url: /products/101
+response:
+  status: 200
+  body:
+    id: 101
+    name: "Wireless Mouse"
+    price: 25.99
+  headers:
+    Content-Type: application/json
