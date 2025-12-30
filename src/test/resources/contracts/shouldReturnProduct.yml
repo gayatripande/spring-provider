@@ -6,7 +6,7 @@ response:
   status: 200
   body:
     id: 101
-    name: "Laptop"
+    productName: "Wireless Mouse"
     price: 25.99
   headers:
     Content-Type: application/json
