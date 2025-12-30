@@ -22,6 +22,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Notify Consumer
+        env:
+          MY_TOKEN: ${{ secrets.NOTIFY_TOKEN }}
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
