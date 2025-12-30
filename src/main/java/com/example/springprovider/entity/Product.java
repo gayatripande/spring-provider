@@ -3,7 +3,7 @@ package com.example.springprovider.entity;
 public class Product {
 
     Long id;
-    String name;
+    String productName;
     Double price;
 
     public Long getId() {
@@ -14,8 +14,8 @@ public class Product {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getProductName() {
+        return productName;
     }
 
     public Product() {
@@ -24,12 +24,12 @@ public class Product {
 
     public Product(Long id, String name, Double price) {
         this.id = id;
-        this.name = name;
+        this.productName = name;
         this.price = price;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
     public Double getPrice() {
